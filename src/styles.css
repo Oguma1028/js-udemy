@@ -1,3 +1,64 @@
 body {
   font-family: sans-serif;
 }
+
+.add-form {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+input {
+  padding: 8px 16px;
+  border-radius: 8px;
+  outline: none;
+  margin-right: 8px;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 4px 8px;
+  margin-right: 8px;
+}
+
+button:hover {
+  background-color: pink;
+  color: #fff;
+  cursor: pointer;
+}
+
+p {
+  margin-right: 8px;
+  font-size: 16px;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  color: #666666;
+}
+
+.todo {
+  background-color: aliceblue;
+  min-height: 200px;
+  padding: 8px;
+  border-radius: 16px;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+.done {
+  background-color: aquamarine;
+  min-height: 200px;
+  padding: 8px;
+  border-radius: 16px;
+}
+
+.item {
+  margin-bottom: 8px;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+}

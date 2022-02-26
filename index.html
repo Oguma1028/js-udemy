@@ -6,8 +6,35 @@
   </head>
 
   <body>
-    <div id="app"></div>
-    <p>test</p>
+    <div class="todo-list">
+      <div class="add-form">
+        <input id="add-text" placeholder="Todoを追加" />
+        <button id="add-button">追加</button>
+      </div>
+      <div class="todo">
+        <h2 class="title">未完了のTodo</h2>
+        <ul id="incomplete">
+          <li class="item">
+            <div class="action">
+              <p>Todoです</p>
+              <button>完了</button>
+              <button>削除</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="done" id="complete">
+        <h2 class="title">完了したTodo</h2>
+        <ul>
+          <li class="item">
+            <div class="action">
+              <p>完了したTodoです</p>
+              <button>戻す</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
 
     <script src="src/index.js"></script>
   </body>
